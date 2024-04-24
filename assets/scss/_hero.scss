@@ -1,0 +1,131 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+  overflow-x: hidden;
+  padding: 0;
+  .carousel {
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+    transition-duration: 0.4s;
+  }
+
+  .carousel-item::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    inset: 0;
+  }
+
+  .info {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    @media (max-width: 768px) {
+      padding: 0 50px;
+    }
+
+    h2 {
+      color: #fff;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      font-size: 56px;
+      font-weight: 700;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 80px;
+        height: 4px;
+        background: var(--color-primary);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+      }
+  
+      @media (max-width: 768px) {
+        font-size: 36px;
+      }
+    }
+  
+    p {
+      color: rgba(#fff, .8);
+      font-size: 18px;
+    }
+  
+    .btn-get-started {
+      font-family: var(--font-primary);
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 12px 40px;
+      border-radius: 50px;
+      transition: 0.5s;
+      margin: 10px;
+      color: #fff;
+      border: 2px solid var(--color-primary);
+      &:hover {
+        background: var(--color-primary);
+      }
+    }
+  }
+
+
+  .carousel-control-prev {
+    justify-content: start;
+    @media (min-width: 640px) {
+      padding-left: 15px;
+    }
+  }
+  
+  .carousel-control-next {
+    justify-content: end;
+    @media (min-width: 640px) {
+      padding-right: 15px;
+    }
+  }
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background: none;
+    font-size: 26px;
+    line-height: 0;
+    background: rgba(255, 255, 255, .2);
+    color: rgba(255, 255, 255, .6);
+    border-radius: 50px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    z-index: 3;
+    transition: 0.3s;
+    &:focus {
+      opacity: .5;
+    }
+
+    &:hover {
+      opacity: .9;
+    }
+  }
+
+}

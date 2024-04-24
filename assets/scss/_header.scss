@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  z-index: 997;
+  position: absolute;
+  padding: 30px 0;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  .logo {
+    img {
+      max-height: 40px;
+      margin-right: 6px;
+    }
+    
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0;
+      font-family: var(--font-primary);
+      span {
+        color: var(--color-primary);
+      }
+    }
+
+  }
+}

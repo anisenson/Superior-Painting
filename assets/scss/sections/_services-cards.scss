@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+# Servie Cards Section
+--------------------------------------------------------------*/
+.services-cards {
+
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-secondary);
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  ul {
+    li {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      padding-top: 10px;
+      i {
+        font-size: 16px;
+        color: var(--color-primary);
+        margin-right: 6px;
+      }
+    }
+  }
+  
+}

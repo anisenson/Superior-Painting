@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+# Stats Counter Section
+--------------------------------------------------------------*/
+.stats-counter {
+  .stats-item {
+    background: #fff;
+    box-shadow: 0px 0 30px rgba($secondary, 0.05);
+    padding: 30px;
+
+    i {
+      font-size: 42px;
+      line-height: 0;
+      margin-right: 20px;
+      color: var(--color-primary);
+    }
+
+    span {
+      font-size: 36px;
+      display: block;
+      font-weight: 600;
+      color: var(--color-secondary);
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+      font-family: var(--font-primary);
+      font-size: 14px;
+    }
+  }
+}

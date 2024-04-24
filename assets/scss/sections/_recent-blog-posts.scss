@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------
+# Recent Blog Posts Section
+--------------------------------------------------------------*/
+.recent-blog-posts {
+  .post-item {
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+
+    .post-img {
+      img {
+        transition: 0.5s;
+      }
+    }
+
+    .post-date {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background-color: var(--color-primary);
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 13px;
+      padding: 6px 12px;
+      font-weight: 500;
+    }
+
+    .post-content {
+      padding: 30px;
+    }
+
+    .post-title {
+      font-size: 24px;
+      color: var(--color-secondary);
+      font-weight: 700;
+      transition: 0.3s;
+      margin-bottom: 15px;
+    }
+
+    .meta {
+      i {
+        font-size: 16px;
+        color: var(--color-primary);
+      }
+      span {
+        font-size: 15px;
+        color: lighten($secondary, 20);
+      }
+    }
+
+
+    hr {
+      color: #888;
+      margin: 20px 0;
+    }
+
+    .readmore {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      line-height: 1;
+      transition: 0.3s;
+      color: lighten($secondary, 20);
+
+      i {
+        line-height: 0;
+        margin-left: 6px;
+        font-size: 16px;
+      }
+    }
+
+    &:hover {
+      .post-title, .readmore  {
+        color: var(--color-primary);
+      }
+      .post-img img {
+        transform: scale(1.1)
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+.blog {
+
+  .blog-pagination {
+    margin-top: 30px;
+    color: lighten($secondary, 20);
+
+    ul {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    li {
+      margin: 0 5px;
+      transition: 0.3s;
+
+      a {
+        color: var(--color-secondary);
+        padding: 7px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &.active, &:hover {
+        background: var(--color-primary);
+        color: #fff;
+        a {
+          color: var(--color-white);
+        }
+      }
+    }
+
+  }
+  
+}

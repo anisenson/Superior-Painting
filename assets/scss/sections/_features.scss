@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+.features {
+  .nav-tabs {
+    border: 0;
+  }
+
+  .nav-link {
+    padding: 15px 0;
+    transition: 0.3s;
+    color: var(--color-secondary);
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 4px solid lighten($secondary, 55);
+    
+    i {
+      padding-right: 15px;
+      font-size: 48px;
+    }
+    
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0;
+      @media (max-width: 575px) {
+        font-size: 16px;
+      }
+    }
+    
+    
+    &:hover {
+      color: var(--color-primary);
+    }
+
+    
+    &.active {
+      color: var(--color-primary);
+      background-color: transparent;
+      border-color: var(--color-primary);
+    }
+
+  }
+
+  .tab-content {
+    margin-top: 30px;
+  }
+
+  .tab-pane {
+    h3 {
+      font-weight: 700;
+      font-size: 32px;
+      position: relative;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: var(--color-primary);
+        left: 0;
+        bottom: 0;
+      }
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      
+      li {
+        padding-top: 10px;
+      }
+
+      i {
+        font-size: 20px;
+        padding-right: 4px;
+        color: var(--color-primary);
+      }
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

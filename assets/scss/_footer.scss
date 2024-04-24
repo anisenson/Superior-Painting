@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  color: #fff;
+  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  padding: 80px 0 60px 0;
+  position: relative;
+
+  &:before {
+    content: "";
+    background:rgba(0,0,0, .8);
+    position: absolute;
+    inset: 0;
+  }
+
+
+  .footer-content {
+
+    .footer-info {
+      margin-bottom: 30px;
+      h3 {
+        font-size: 28px;
+        margin: 0 0 20px 0;
+        padding: 2px 0 2px 0;
+        line-height: 1;
+        font-weight: 700;
+        text-transform: uppercase;
+        span {
+          color: var(--color-primary);
+        }
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+        font-family: var(--font-primary);
+        color: #fff;
+      }
+    }
+
+    .social-links {
+      a {
+        font-size: 18px;
+        display: inline-block;
+        background: rgba(255, 255, 255, .1);
+        color: #fff;
+        line-height: 1;
+        margin-right: 8px;
+        border-radius: 4px;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+        &:hover {
+          background: var(--color-primary);
+          text-decoration: none;
+        }
+      }
+    }
+
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      position: relative;
+      padding-bottom: 12px;
+    }
+
+    .footer-links {
+      margin-bottom: 30px;
+
+      ul{
+        list-style: none;
+        padding: 0;
+        margin: 0; 
+
+        li {
+          padding: 8px 0;
+          &:first-child {
+            padding-top: 0;
+          }
+        }
+
+        a {
+          color: rgba(255, 255, 255, .6);
+          transition: 0.3s;
+          display: inline-block;
+          line-height: 1;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+  }
+
+  .footer-legal {
+    .copyright {
+      padding-top: 30px;
+      border-top: 1px solid rgba(#fff, .15);
+    }
+    .credits {
+      padding-top: 4px;
+      font-size: 13px;
+      color: #fff;
+      a {
+        color: var(--color-primary);
+      }
+    }
+  }
+
+}

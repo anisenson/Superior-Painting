@@ -1,0 +1,114 @@
+/*--------------------------------------------------------------
+# Testimonials Section
+--------------------------------------------------------------*/
+.testimonials {
+
+  .testimonial-wrap {
+    padding-left: 50px;
+  }
+
+  .testimonials-carousel, .testimonials-slider {
+    overflow: hidden;
+  }
+
+  .testimonial-item {
+    box-sizing: content-box;
+    padding: 30px 30px 30px 60px;
+    margin: 0 15px 30px 0;
+    min-height: 200px;
+    box-shadow: 0px 2px 20px rgba($secondary,.1);
+    position: relative;
+    background: #fff;
+
+    .testimonial-img {
+      width: 90px;
+      border-radius: 10px;
+      border: 6px solid #fff;
+      position: absolute;
+      left: -45px;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 5px 0;
+      color: #000;
+    }
+
+    h4 {
+      font-size: 14px;
+      color: #999;
+      margin:0;
+    }
+
+    .stars {
+      margin: 10px 0;
+      i {
+        color: #ffc107;
+        margin: 0 1px;
+      }
+    }
+
+    .quote-icon-left, .quote-icon-right {
+      color: lighten($primary, 20);
+      font-size: 26px;
+      line-height: 0;
+    }
+
+    .quote-icon-left {
+      display: inline-block;
+      left: -5px;
+      position: relative;
+    }
+
+    .quote-icon-right {
+      display: inline-block;
+      right: -5px;
+      position: relative;
+      top:10px;
+      transform: scale(-1, -1);
+    }
+
+    p {
+      font-style: italic;
+      margin: 15px auto 15px auto;
+    }
+
+  }
+
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: lighten($secondary, 50);
+      opacity: 1;
+    }
+  
+    .swiper-pagination-bullet-active {
+      background-color: var(--color-primary);
+    }
+  }
+
+  @media (max-width: 767px ) {
+    .testimonial-wrap {
+      padding-left: 0;
+    }
+    
+    .testimonials-carousel, .testimonials-slider {
+    overflow: hidden;
+  }
+
+  .testimonial-item {
+      padding: 30px;
+      margin: 15px;
+      .testimonial-img {
+        position: static;
+        left: auto;
+      }
+    }
+
+  }
+}
