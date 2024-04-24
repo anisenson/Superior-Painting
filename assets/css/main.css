@@ -19,9 +19,9 @@
 
 /* Colors */
 :root {
-  --color-default: #364d59;
-  --color-primary: #feb900;
-  --color-secondary: #52565e;
+  --color-default: #000000;
+  --color-primary: #2E4A70;
+  --color-secondary: #BB353C;
 }
 
 /* Smooth scroll behavior */
@@ -277,6 +277,7 @@ section {
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
+    
   }
 
   .navbar ul {
