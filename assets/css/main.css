@@ -71,7 +71,6 @@ section {
 
 .section-header h2 {
   font-size: 32px;
-  font-weight: 700;
   position: relative;
   color: #2e3135;
 }
@@ -124,7 +123,7 @@ section {
 
 .breadcrumbs h2 {
   font-size: 56px;
-  font-weight: 500;
+  : 500;
   color: #fff;
   font-family: var(--font-secondary);
 }
@@ -136,7 +135,7 @@ section {
   padding: 0 0 10px 0;
   margin: 0;
   font-size: 16px;
-  font-weight: 600;
+  : 600;
   color: var(--color-primary);
 }
 
@@ -257,7 +256,7 @@ section {
 
 .header .logo h1 {
   font-size: 24px;
-  font-weight: 700;
+  : 700;
   color: #fff;
   margin-bottom: 0;
   font-family: var(--font-primary);
@@ -303,7 +302,7 @@ section {
     font-family: var(--font-primary);
     letter-spacing: 1px;
     font-size: 14px;
-    font-weight: 500;
+    : 500;
     color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
     white-space: nowrap;
@@ -369,7 +368,7 @@ section {
     font-size: 15px;
     text-transform: none;
     color: var(--color-default);
-    font-weight: 400;
+    : 400;
   }
 
   .navbar .dropdown ul a i {
@@ -455,7 +454,7 @@ section {
     font-family: var(--font-primary);
     letter-spacing: 1px;
     font-size: 15px;
-    font-weight: 500;
+    : 500;
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
     text-transform: uppercase;
@@ -576,7 +575,7 @@ section {
 .hero-fullscreen h2 {
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 300;
+  : 300;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
 }
@@ -589,12 +588,12 @@ section {
   color: rgba(var(--color-secondary-rgb), 0.8);
   margin: 0 0 30px 0;
   font-size: 20px;
-  font-weight: 400;
+  : 400;
 }
 
 .hero-fullscreen .btn-get-started {
   font-size: 16px;
-  font-weight: 400;
+  : 400;
   display: inline-block;
   padding: 10px 28px;
   border-radius: 4px;
@@ -614,7 +613,7 @@ section {
   margin-left: 25px;
   font-family: var(--font-secondary);
   color: var(--color-secondary);
-  font-weight: 600;
+  : 600;
 }
 
 .hero-fullscreen .btn-watch-video i {
@@ -650,7 +649,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Alt Services Section
+# About Us Section
 --------------------------------------------------------------*/
 .alt-services .img-bg {
   background-size: cover;
@@ -660,7 +659,6 @@ section {
 
 .alt-services h3 {
   font-size: 28px;
-  font-weight: 700;
   color: var(--color-secondary);
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -704,7 +702,7 @@ section {
 }
 
 .alt-services .icon-box h4 {
-  font-weight: 700;
+  : 700;
   margin-bottom: 10px;
   font-size: 18px;
 }
@@ -746,7 +744,7 @@ section {
 }
 
 .constructions .card-item h4 {
-  font-weight: 700;
+  : 700;
   font-size: 20px;
   margin-bottom: 15px;
   color: var(--color-secondary);
@@ -797,7 +795,7 @@ section {
 
 .services .service-item h3 {
   color: var(--color-default);
-  font-weight: 700;
+  : 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
   font-size: 22px;
@@ -855,7 +853,7 @@ section {
 
 .features .nav-link h4 {
   font-size: 18px;
-  font-weight: 600;
+  : 600;
   margin: 0;
 }
 
@@ -880,7 +878,6 @@ section {
 }
 
 .features .tab-pane h3 {
-  font-weight: 700;
   font-size: 32px;
   position: relative;
   margin-bottom: 20px;
@@ -932,7 +929,7 @@ section {
   display: inline-block;
   padding: 0;
   font-size: 18px;
-  font-weight: 500;
+  : 500;
   margin: 0 10px;
   line-height: 1;
   margin-bottom: 5px;
@@ -981,7 +978,7 @@ section {
 .projects .portfolio-content .portfolio-info h4 {
   font-size: 14px;
   padding: 5px 10px;
-  font-weight: 400;
+  : 400;
   color: #fff;
   display: inline-block;
   background-color: var(--color-primary);
@@ -995,7 +992,7 @@ section {
   left: 0;
   right: 0;
   font-size: 16px;
-  font-weight: 600;
+  : 600;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1061,7 +1058,7 @@ section {
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
-  font-weight: bold;
+  : bold;
   margin: 10px 0 5px 0;
   color: #000;
 }
@@ -1150,7 +1147,7 @@ section {
 --------------------------------------------------------------*/
 .about h2 {
   font-size: 48px;
-  font-weight: 700;
+  : 700;
   font-family: var(--font-secondary);
   margin: 30px 0;
 }
@@ -1181,7 +1178,7 @@ section {
 
 .about .our-story h3 {
   font-size: 36px;
-  font-weight: 700;
+  : 700;
   margin-bottom: 20px;
   color: var(--color-secondary);
 }
@@ -1215,7 +1212,7 @@ section {
 }
 
 .about .watch-video a {
-  font-weight: 600;
+  : 600;
   color: var(--color-secondary);
   margin-left: 8px;
   transition: 0.3s;
@@ -1258,7 +1255,7 @@ section {
 .stats-counter .stats-item span {
   font-size: 36px;
   display: block;
-  font-weight: 600;
+  : 600;
   color: var(--color-secondary);
 }
 
@@ -1325,7 +1322,7 @@ section {
 }
 
 .team .member .member-info h4 {
-  font-weight: 700;
+  : 700;
   margin-bottom: 6px;
   font-size: 18px;
   color: var(--color-secondary);
@@ -1355,7 +1352,7 @@ section {
 --------------------------------------------------------------*/
 .services-cards h3 {
   font-size: 20px;
-  font-weight: 700;
+  : 700;
   color: var(--color-secondary);
 }
 
@@ -1429,7 +1426,7 @@ section {
 
 .project-details .portfolio-info h3 {
   font-size: 22px;
-  font-weight: 700;
+  : 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1460,7 +1457,7 @@ section {
 
 .project-details .portfolio-info ul strong {
   text-transform: uppercase;
-  font-weight: 400;
+  : 400;
   color: #838893;
   font-size: 14px;
 }
@@ -1479,7 +1476,7 @@ section {
 
 .project-details .portfolio-description h2 {
   font-size: 26px;
-  font-weight: 700;
+  : 700;
   margin-bottom: 20px;
   color: var(--color-secondary);
 }
@@ -1506,7 +1503,7 @@ section {
 
 .project-details .portfolio-description .testimonial-item h3 {
   font-size: 18px;
-  font-weight: bold;
+  : bold;
   margin: 15px 0 5px 0;
   padding-top: 20px;
 }
@@ -1564,7 +1561,7 @@ section {
 }
 
 .service-details .services-list a.active {
-  font-weight: 700;
+  : 700;
   border-color: var(--color-primary);
 }
 
@@ -1578,12 +1575,12 @@ section {
 
 .service-details h3 {
   font-size: 28px;
-  font-weight: 700;
+  : 700;
 }
 
 .service-details h4 {
   font-size: 20px;
-  font-weight: 700;
+  : 700;
 }
 
 .service-details p {
@@ -1632,7 +1629,7 @@ section {
 .contact .info-item h3 {
   font-size: 20px;
   color: #6c757d;
-  font-weight: 700;
+  : 700;
   margin: 10px 0;
 }
 
@@ -1660,7 +1657,7 @@ section {
   background: #df1529;
   text-align: left;
   padding: 15px;
-  font-weight: 600;
+  : 600;
 }
 
 .contact .php-email-form .error-message br+br {
@@ -1673,7 +1670,7 @@ section {
   background: #059652;
   text-align: center;
   padding: 15px;
-  font-weight: 600;
+  : 600;
 }
 
 .contact .php-email-form .loading {
@@ -1759,7 +1756,7 @@ section {
   text-transform: uppercase;
   font-size: 13px;
   padding: 6px 12px;
-  font-weight: 500;
+  : 500;
 }
 
 .recent-blog-posts .post-item .post-content {
@@ -1769,7 +1766,7 @@ section {
 .recent-blog-posts .post-item .post-title {
   font-size: 24px;
   color: var(--color-secondary);
-  font-weight: 700;
+  : 700;
   transition: 0.3s;
   margin-bottom: 15px;
 }
@@ -1792,7 +1789,7 @@ section {
 .recent-blog-posts .post-item .readmore {
   display: flex;
   align-items: center;
-  font-weight: 600;
+  : 600;
   line-height: 1;
   transition: 0.3s;
   color: #838893;
@@ -1864,7 +1861,7 @@ section {
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-size: 56px;
-  font-weight: 700;
+  : 700;
   position: relative;
 }
 
@@ -1894,7 +1891,7 @@ section {
 
 .hero .info .btn-get-started {
   font-family: var(--font-primary);
-  font-weight: 500;
+  : 500;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -2021,7 +2018,7 @@ section {
   text-transform: uppercase;
   font-size: 13px;
   padding: 6px 12px;
-  font-weight: 500;
+  : 500;
 }
 
 .blog .posts-list .post-content {
@@ -2031,7 +2028,7 @@ section {
 .blog .posts-list .post-title {
   font-size: 24px;
   color: var(--color-secondary);
-  font-weight: 700;
+  : 700;
   transition: 0.3s;
   margin-bottom: 15px;
 }
@@ -2058,7 +2055,7 @@ section {
 .blog .posts-list .readmore {
   display: flex;
   align-items: center;
-  font-weight: 600;
+  : 600;
   line-height: 1;
   transition: 0.3s;
   color: #838893;
@@ -2094,7 +2091,7 @@ section {
 
 .blog .blog-details .title {
   font-size: 28px;
-  font-weight: 700;
+  : 700;
   padding: 0;
   margin: 20px 0 0 0;
   color: var(--color-secondary);
@@ -2107,7 +2104,7 @@ section {
 .blog .blog-details .content h3 {
   font-size: 22px;
   margin-top: 30px;
-  font-weight: bold;
+  : bold;
 }
 
 .blog .blog-details .content blockquote {
@@ -2124,7 +2121,7 @@ section {
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
-  font-weight: 500;
+  : 500;
   font-size: 22px;
 }
 
@@ -2244,7 +2241,7 @@ section {
 }
 
 .blog .post-author h4 {
-  font-weight: 600;
+  : 600;
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
@@ -2276,7 +2273,7 @@ section {
 
 .blog .sidebar .sidebar-title {
   font-size: 20px;
-  font-weight: 700;
+  : 700;
   padding: 0;
   margin: 0;
   color: var(--color-secondary);
@@ -2368,7 +2365,7 @@ section {
 
 .blog .sidebar .recent-posts h4 {
   font-size: 15px;
-  font-weight: bold;
+  : bold;
 }
 
 .blog .sidebar .recent-posts h4 a {
@@ -2430,7 +2427,7 @@ section {
 }
 
 .blog .comments .comments-count {
-  font-weight: bold;
+  : bold;
 }
 
 .blog .comments .comment {
@@ -2452,7 +2449,7 @@ section {
 }
 
 .blog .comments .comment h5 a {
-  font-weight: bold;
+  : bold;
   color: var(--color-default);
   transition: 0.3s;
 }
@@ -2488,7 +2485,7 @@ section {
 }
 
 .blog .comments .reply-form h4 {
-  font-weight: bold;
+  : bold;
   font-size: 22px;
 }
 
@@ -2562,7 +2559,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-weight: 700;
+  : 700;
   text-transform: uppercase;
 }
 
@@ -2599,7 +2596,7 @@ section {
 
 .footer .footer-content h4 {
   font-size: 16px;
-  font-weight: 600;
+  : 600;
   color: #fff;
   position: relative;
   padding-bottom: 12px;
