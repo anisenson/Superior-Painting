@@ -1,11 +1,3 @@
-/**
-* Template Name: UpConstruction
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # Set main reusable colors and fonts using CSS variables
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
@@ -13,9 +5,10 @@
 /* Fonts */
 :root {
   --font-default:  "Karla", sans-serif;
-  --font-primary: "impact", sans-serif;
-  --font-secondary: "karla", sans-serif;
+  --font-primary: "impact";
+  --font-secondary: "Karla", sans-serif;
 }
+
 
 /* Colors */
 :root {
@@ -55,6 +48,8 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  letter-spacing: 1px;
+
 }
 
 /*--------------------------------------------------------------
@@ -266,6 +261,7 @@ section {
   color: #fff;
   margin-bottom: 0;
   font-family: var(--font-primary);
+  letter-spacing: 1px;
 }
 
 .header .logo h1 span {
@@ -305,6 +301,7 @@ section {
     justify-content: space-between;
     padding: 0 3px;
     font-family: var(--font-primary);
+    letter-spacing: 1px;
     font-size: 14px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.6);
@@ -456,6 +453,7 @@ section {
     justify-content: space-between;
     padding: 10px 20px;
     font-family: var(--font-primary);
+    letter-spacing: 1px;
     font-size: 15px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
@@ -532,7 +530,26 @@ section {
     z-index: 9996;
   }
 }
-/*Hero Section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
 .hero-fullscreen {
   width: 100%;
   min-height: 100vh;
@@ -632,151 +649,79 @@ section {
   }
 }
 
-
-
-
-
-
-
-
-
 /*--------------------------------------------------------------
-# Get Started Section
+# Alt Services Section
 --------------------------------------------------------------*/
-.get-started .content {
-  padding: 30px 0;
+.alt-services .img-bg {
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
 }
 
-.get-started .content h3 {
-  font-size: 36px;
+.alt-services h3 {
+  font-size: 28px;
+  font-weight: 700;
   color: var(--color-secondary);
-  font-weight: 600;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   position: relative;
 }
 
-.get-started .content h3:after {
+.alt-services h3:after {
   content: "";
   position: absolute;
   display: block;
-  width: 60px;
-  height: 4px;
+  width: 50px;
+  height: 3px;
   background: var(--color-primary);
   left: 0;
   bottom: 0;
 }
 
-.get-started .content p {
-  font-size: 14px;
+.alt-services .icon-box {
+  margin-top: 50px;
 }
 
-.get-started .php-email-form {
-  background: #fff;
-  padding: 30px;
-  height: 100%;
-}
-
-@media (max-width: 575px) {
-  .get-started .php-email-form {
-    padding: 20px;
-  }
-}
-
-.get-started .php-email-form h3 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.get-started .php-email-form p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.get-started .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #df1529;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.get-started .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.get-started .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.get-started .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #059652;
-  border-top-color: #fff;
-  animation: animate-loading 1s linear infinite;
-}
-
-.get-started .php-email-form input,
-.get-started .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 0;
-}
-
-.get-started .php-email-form input:focus,
-.get-started .php-email-form textarea:focus {
-  border-color: var(--color-primary);
-}
-
-.get-started .php-email-form input {
-  padding: 12px 15px;
-}
-
-.get-started .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.get-started .php-email-form button[type=submit] {
-  background: var(--color-primary);
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
+.alt-services .icon-box i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  margin-right: 25px;
+  font-size: 28px;
+  width: 56px;
+  height: 56px;
   border-radius: 4px;
+  line-height: 0;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  transition: 0.3s;
 }
 
-.get-started .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+.alt-services .icon-box:hover i {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
+.alt-services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
 
-  100% {
-    transform: rotate(360deg);
-  }
+.alt-services .icon-box h4 a {
+  color: #000;
+  transition: 0.3s;
+}
+
+.alt-services .icon-box h4 a:hover {
+  color: var(--color-primary);
+}
+
+.alt-services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1199,80 +1144,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Alt Services Section
---------------------------------------------------------------*/
-.alt-services .img-bg {
-  background-size: cover;
-  background-position: center center;
-  min-height: 400px;
-}
-
-.alt-services h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--color-secondary);
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.alt-services h3:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: var(--color-primary);
-  left: 0;
-  bottom: 0;
-}
-
-.alt-services .icon-box {
-  margin-top: 50px;
-}
-
-.alt-services .icon-box i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-primary);
-  margin-right: 25px;
-  font-size: 28px;
-  width: 56px;
-  height: 56px;
-  border-radius: 4px;
-  line-height: 0;
-  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
-  background-color: #fff;
-  transition: 0.3s;
-}
-
-.alt-services .icon-box:hover i {
-  background-color: var(--color-primary);
-  color: #fff;
-}
-
-.alt-services .icon-box h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.alt-services .icon-box h4 a {
-  color: #000;
-  transition: 0.3s;
-}
-
-.alt-services .icon-box h4 a:hover {
-  color: var(--color-primary);
-}
-
-.alt-services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # About Section
@@ -1395,6 +1266,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: var(--font-primary);
+  letter-spacing: 1px;
   font-size: 14px;
 }
 
@@ -2703,6 +2575,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: var(--font-primary);
+  letter-spacing: 1px;
   color: #fff;
 }
 
