@@ -48,7 +48,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 
 }
 
@@ -575,7 +575,6 @@ section {
 .hero-fullscreen h2 {
   margin: 0 0 10px 0;
   font-size: 48px;
-  : 300;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
 }
@@ -593,7 +592,6 @@ section {
 
 .hero-fullscreen .btn-get-started {
   font-size: 16px;
-  : 400;
   display: inline-block;
   padding: 10px 28px;
   border-radius: 4px;
@@ -648,16 +646,22 @@ section {
   }
 }
 
+.customBtn {
+  
+}
+
+
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
-.alt-services .img-bg {
+.about-us .img-bg {
   background-size: cover;
   background-position: center center;
   min-height: 400px;
+  
 }
 
-.alt-services h3 {
+.about-us h3 {
   font-size: 28px;
   color: var(--color-secondary);
   margin-bottom: 20px;
@@ -665,7 +669,7 @@ section {
   position: relative;
 }
 
-.alt-services h3:after {
+.about-us h3:after {
   content: "";
   position: absolute;
   display: block;
@@ -676,11 +680,11 @@ section {
   bottom: 0;
 }
 
-.alt-services .icon-box {
+.about-us .icon-box {
   margin-top: 50px;
 }
 
-.alt-services .icon-box i {
+.about-us .icon-box i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -696,30 +700,31 @@ section {
   transition: 0.3s;
 }
 
-.alt-services .icon-box:hover i {
+.about-us .icon-box:hover i {
   background-color: var(--color-primary);
   color: #fff;
 }
 
-.alt-services .icon-box h4 {
-  : 700;
+.about-us .icon-box h4 {
   margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.alt-services .icon-box h4 a {
-  color: #000;
-  transition: 0.3s;
-}
-
-.alt-services .icon-box h4 a:hover {
+  font-size: 20px;
   color: var(--color-primary);
 }
 
-.alt-services .icon-box p {
+.about-us .icon-box h4 a {
+  color: var(--color-primary);
+  transition: 0.3s;
+}
+
+.about-us .icon-box h4 a:hover {
+  color: var(--color-primary);
+}
+
+.about-us .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 0;
+  color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -762,6 +767,7 @@ section {
   padding: 40px;
   background: #fff;
   height: 100%;
+  color: var();
 }
 
 .services .service-item .icon {
@@ -807,7 +813,7 @@ section {
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 
