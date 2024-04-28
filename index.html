@@ -32,6 +32,8 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -39,40 +41,49 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+<!--Navbar-->
+<header class="header fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">
+    <img src="assets/img/Superior/Logos/logo-2x.png" width="100" height="auto" class="d-inline-block align-top" alt="Logo 1">
+    <img src="assets/img/Superior/Logos/alt-logo-2x.png" width="100" height="auto" class="d-inline-block align-top" alt="Logo 2">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header><!--End-Navbar-->
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/Superior/Logos/logo-2x.png" alt="Superior-Painting-Logo"> 
-        <img src="assets/img/Superior/Logos/alt-logo-2x.png" alt="Superior-Painting-Alt-Logo"> 
-      </a>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-       
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
    <section id="hero-fullscreen" class="hero-fullscreen d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center position-relative" data-aos="zoom-out">
+    <div class="container d-flex flex-column align-items-center position-relative mt-0" data-aos="zoom-out">
       <img class="img-fluid w-50" src="assets/img/Superior/Logos/cover-logo-2x.png" alt="Superior Painting Co. NJ Logo">
       <br>
       <p class="text-center">Welcome to Superior Painting Company NJ, where passion meets precision in every brushstroke. Established in 2001 by John (Cahit) Benli, we have proudly served the Freehold, NJ area for over two decades with a dedication to excellence and customer satisfaction.</p>
         
-      <div class="d-flex">
-        <a href="#about-us" class="customBtn">Learn More</a>
+      <div class="d-flex mt-4">
+        <a href="#about-us" class="btn customBtn">Learn More</a>
       </div>
     </div>
   </section><!-- End Hero Section -->
@@ -232,7 +243,7 @@
         </div>
           <div class="container d-flex flex-column align-items-center position-relative mt-5" data-aos="fade-up" data-aos-delay="400">
             <div class="d-flex">
-              <a href="#projects" class="customBtn">Explore More</a>
+              <a href="#projects" class="btn customBtn">Explore More</a>
             </div>
           </div>
       </div>
@@ -670,9 +681,17 @@
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
