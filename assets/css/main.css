@@ -70,7 +70,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 32px;
+  font-size: 40px;
   position: relative;
   color: #2e3135;
 }
@@ -661,6 +661,10 @@ section {
   
 }
 
+.img-bg:hover {
+  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.08);
+}
+
 .about-us h3 {
   font-size: 28px;
   color: var(--color-secondary);
@@ -746,13 +750,14 @@ section {
 
 .constructions .card-item .card-body {
   padding: 30px;
+  text-align: center;
 }
 
 .constructions .card-item h4 {
-  : 700;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 15px;
   color: var(--color-secondary);
+  font-family: var(--font-secondary);
 }
 
 .constructions .card-item p {
@@ -760,7 +765,9 @@ section {
   margin: 0;
 }
 
-
+.card-item:hover {
+  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.08);
+}
 
 
 /*--------------------------------------------------------------
