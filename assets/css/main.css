@@ -178,13 +178,13 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--color-secondary);
+  color: white;
   line-height: 0;
 }
 
 .scroll-top:hover {
-  background: #ffc732;
-  color: #fff;
+  background: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .scroll-top.active {
