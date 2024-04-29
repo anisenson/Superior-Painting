@@ -538,7 +538,6 @@ section {
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
-  font-family: var(--font-primary);
   margin: 10px 0 5px 0;
   color: #000;
 }
@@ -554,13 +553,13 @@ section {
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #ffda69;
   margin: 0 1px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #ffd565;
+  color: var(--color-primary);
   font-size: 26px;
   line-height: 0;
 }
