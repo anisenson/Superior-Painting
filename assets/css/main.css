@@ -400,7 +400,8 @@ section {
 }
 
 .img-bg:hover {
-  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+
 }
 
 .about-us h3 {
@@ -503,7 +504,7 @@ section {
 }
 
 .card-item:hover {
-  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 
