@@ -43,8 +43,6 @@ a:hover {
 
 h1,
 h2,
-h3,
-h4,
 h5,
 h6 {
   font-family: var(--font-primary);
@@ -404,15 +402,15 @@ section {
 
 }
 
-.about-us h3 {
+.about-us h5 {
   font-size: 28px;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
 }
 
-.about-us h3:after {
+.about-us h5:after {
   content: "";
   position: absolute;
   display: block;
@@ -540,7 +538,7 @@ section {
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
-  : bold;
+  font-family: var(--font-primary);
   margin: 10px 0 5px 0;
   color: #000;
 }
