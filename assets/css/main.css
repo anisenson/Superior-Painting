@@ -167,7 +167,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -181,8 +181,8 @@ section {
 }
 
 .scroll-top:hover {
-  background: var(--color-secondary);
-  color: var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .scroll-top.active {
@@ -446,18 +446,18 @@ section {
   color: #fff;
 }
 
-.about-us .icon-box h4 {
+.about-us .icon-box {
   margin-bottom: 10px;
   font-size: 20px;
   color: var(--color-primary);
 }
 
-.about-us .icon-box h4 a {
+.about-us .icon-box a {
   color: var(--color-primary);
   transition: 0.3s;
 }
 
-.about-us .icon-box h4 a:hover {
+.about-us .icon-box a:hover {
   color: var(--color-primary);
 }
 
@@ -637,7 +637,6 @@ section {
   display: inline-block;
   padding: 0;
   font-size: 18px;
-  : 500;
   margin: 0 10px;
   line-height: 1;
   margin-bottom: 5px;
@@ -733,6 +732,9 @@ section {
 .projects .portfolio-content:hover img {
   transform: scale(1.1);
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Stats Counter Section
@@ -1047,7 +1049,6 @@ section {
 .contact .info-item h3 {
   font-size: 20px;
   color: #6c757d;
-  : 700;
   margin: 10px 0;
 }
 
@@ -1075,7 +1076,6 @@ section {
   background: #df1529;
   text-align: left;
   padding: 15px;
-  : 600;
 }
 
 .contact .php-email-form .error-message br+br {
@@ -1379,114 +1379,34 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.footer {
-  color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
-  background-size: cover;
-  font-size: 14px;
-  padding: 80px 0 60px 0;
-  position: relative;
-}
-
-.footer:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  inset: 0;
-}
-
-.footer .footer-content .footer-info {
-  margin-bottom: 30px;
-}
-
-.footer .footer-content .footer-info h3 {
-  font-size: 28px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  : 700;
-  text-transform: uppercase;
-}
-
-.footer .footer-content .footer-info h3 span {
-  color: var(--color-primary);
-}
-
-.footer .footer-content .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
+footer {
+  background-color: var(--color-primary);
+  flex-shrink: 0;
   margin-bottom: 0;
+
+}
+
+.footerImg {
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+}
+.footerImg:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.footer-header1 {
   font-family: var(--font-primary);
-  letter-spacing: 1px;
-  color: #fff;
+  color: white;
 }
 
-.footer .footer-content .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  line-height: 1;
-  margin-right: 8px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
+.footer-list {
+  text-align: left;
+  color: white;
+  font-size: 20px;
 }
 
-.footer .footer-content .social-links a:hover {
-  background: var(--color-primary);
-  text-decoration: none;
-}
-
-.footer .footer-content h4 {
-  font-size: 16px;
-  : 600;
-  color: #fff;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-.footer .footer-content .footer-links {
-  margin-bottom: 30px;
-}
-
-.footer .footer-content .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer .footer-content .footer-links ul li {
-  padding: 8px 0;
-}
-
-.footer .footer-content .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-.footer .footer-content .footer-links ul a {
-  color: rgba(255, 255, 255, 0.6);
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-.footer .footer-content .footer-links ul a:hover {
-  color: #fff;
-}
-
-.footer .footer-legal .copyright {
-  padding-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.footer .footer-legal .credits {
-  padding-top: 4px;
-  font-size: 13px;
-  color: #fff;
-}
-
-.footer .footer-legal .credits a {
-  color: var(--color-primary);
+.footer-links {
+  color: white;
+  font-size: 25px;
 }
