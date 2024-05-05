@@ -78,19 +78,20 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script>
     $(document).ready(function(){
-      // Hide the navbar initially
-      $('.header').hide();
+      // Show the navbar initially
+      $('.header').slideDown();
 
-      // Show the navbar only when user is at the top of the page
+      // Hide the navbar when user scrolls down
       $(window).scroll(function() {
-        if ($(this).scrollTop() === 0) {
-          $('.header').slideDown();
-        } else {
+        if ($(this).scrollTop() > 0) {
           $('.header').slideUp();
+        } else {
+          $('.header').slideDown();
         }
       });
     });
   </script>
+
 
   <!-- ======= Hero Section ======= -->
   <section id="hero-fullscreen" class="hero-fullscreen d-flex align-items-center">
