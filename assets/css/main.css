@@ -664,11 +664,21 @@ section {
 .projects .portfolio-content {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  padding-top: 75%; 
 }
 
 .projects .portfolio-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
   transition: 0.3s;
 }
+
 
 .projects .portfolio-content .portfolio-info {
   opacity: 0;
@@ -683,7 +693,7 @@ section {
 .projects .portfolio-content .portfolio-info h4 {
   font-size: 14px;
   padding: 5px 10px;
-  : 400;
+  font-weight: 400;
   color: #fff;
   display: inline-block;
   background-color: var(--color-primary);
@@ -697,16 +707,17 @@ section {
   left: 0;
   right: 0;
   font-size: 16px;
-  : 600;
+  font-weight: 600;
   color: rgba(255, 255, 255, 0.8);
 }
 
 .projects .portfolio-content .portfolio-info .preview-link,
 .projects .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: calc(50% - 40px);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Center the icon horizontally and vertically */
   font-size: 26px;
-  top: calc(50% - 14px);
   color: #fff;
   transition: 0.3s;
   line-height: 1.2;
@@ -718,7 +729,6 @@ section {
 }
 
 .projects .portfolio-content .portfolio-info .details-link {
-  left: 50%;
   font-size: 34px;
   line-height: 0;
 }
@@ -730,8 +740,6 @@ section {
 .projects .portfolio-content:hover img {
   transform: scale(1.1);
 }
-
-
 
 
 /*--------------------------------------------------------------
