@@ -121,7 +121,6 @@ section {
 
 .breadcrumbs h2 {
   font-size: 56px;
-  : 500;
   color: #fff;
   font-family: var(--font-secondary);
 }
@@ -133,7 +132,6 @@ section {
   padding: 0 0 10px 0;
   margin: 0;
   font-size: 16px;
-  : 600;
   color: var(--color-primary);
 }
 
@@ -1207,4 +1205,11 @@ footer p {
   color: white;
   padding: 15px;
   font-size: 17px;
+}
+
+/* Adjust the font size of the email text for small screens */
+@media (max-width: 768px) {
+  footer .info-item p {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
 }
