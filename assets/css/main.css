@@ -413,7 +413,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Constructions Section
+# Our Services Section
 --------------------------------------------------------------*/
 .constructions .card-item {
   border: 1px solid rgba(82, 86, 94, 0.2);
@@ -750,7 +750,6 @@ section {
   background: #059652;
   text-align: center;
   padding: 15px;
-  : 600;
 }
 
 .contact .php-email-form .loading {
