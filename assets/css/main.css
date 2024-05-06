@@ -98,6 +98,13 @@ section {
   .section-header p {
     max-width: 60%;
   }
+
+}
+
+@media (max-width: 380px) {
+  .section-header h2 {
+    font-size: 30px
+  }
 }
 
 
@@ -186,8 +193,11 @@ section {
 .nav-link{
   font-size: 20px;
   margin-left: 20px;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -865,7 +875,6 @@ footer .info-item i  {
 }
 
 footer p {
-  color: white;
   padding: 15px;
   font-size: 17px;
 }
@@ -875,4 +884,18 @@ footer p {
   footer .info-item p {
     font-size: 14px; /* Adjust the font size as needed */
   }
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover{
+  color: #d5d7da;
+}
+
+footer h6 {
+  color: white;
+  font-family: var(--font-default);
+  margin-top: 65px;
 }
