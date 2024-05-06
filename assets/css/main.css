@@ -197,8 +197,6 @@ section {
 }
 
 
-
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -864,10 +862,10 @@ footer p {
   font-size: 17px;
 }
 
-/* Adjust the font size of the email text for small screens */
+
 @media (max-width: 768px) {
   footer .info-item p {
-    font-size: 14px; /* Adjust the font size as needed */
+    font-size: 14px; 
   }
 }
 
