@@ -81,14 +81,21 @@
     $(document).ready(function(){
       // Show the navbar initially
       $('.header').slideDown();
-
-      // Hide the navbar when user scrolls down
+  
+      // Variables to store previous scroll position
+      var lastScrollTop = 0;
+  
+      // Hide the navbar when user scrolls down and show when scrolling up
       $(window).scroll(function() {
-        if ($(this).scrollTop() > 0) {
+        var currentScroll = $(this).scrollTop();
+        if (currentScroll > lastScrollTop) {
+          // Scroll down
           $('.header').slideUp();
         } else {
+          // Scroll up
           $('.header').slideDown();
         }
+        lastScrollTop = currentScroll;
       });
     });
   </script>
