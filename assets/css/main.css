@@ -334,6 +334,15 @@ section {
 
 }
 
+.about-us h2 {
+  color: var(--color-primary);
+}
+
+.about-us p {
+  color: var(--color-primary);
+}
+
+
 .about-us h5 {
   font-size: 28px;
   color: var(--color-primary);
