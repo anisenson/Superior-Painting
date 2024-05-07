@@ -892,5 +892,10 @@ footer a:hover{
 footer h6 {
   color: white;
   font-family: var(--font-default);
-  margin-top: 65px;
+  margin-top: 20px;
+}
+
+.FooterAdam {
+  color: White;
+  text-decoration: underline;
 }
