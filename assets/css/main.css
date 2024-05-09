@@ -874,15 +874,46 @@ footer p {
   color: white;
 }
 
-
-@media (max-width: 768px) {
-  footer .info-item p {
+@media (max-width: 1590px) {
+  footer .footerEmail {
     font-size: 14px; 
   }
 }
 
+@media (max-width: 1400px) {
+  footer .footerEmail {
+    font-size: 12px; 
+  }
+}
+
+@media (max-width: 768px) {
+  footer .footerEmail {
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 1200px){
+  footer .footerImg {
+    width: 50%;
+  }
+}
+
+
+
+@media (max-width: 400px){
+  footer .footerImg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  footer p {
+    font-size: 20px; 
+  }
+}
 footer a {
   color: white;
+  text-decoration: underline;
 }
 
 footer a:hover{
