@@ -867,7 +867,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 footer {
-  background-color: var(--color-primary);
+  background-color: #f5f6f7;
   flex-shrink: 0;
   margin-bottom: 0;
 
@@ -884,17 +884,17 @@ footer {
 
 .footer-header1 {
   font-family: var(--font-primary);
-  color: white;
+  color: var(--color-primary);
 }
 
 .footer-list {
   text-align: left;
-  color: white;
+  color: var(--color-primary);
   font-size: 20px;
 }
 
 .footer-links {
-  color: white;
+  color: var(--color-primary);
   font-size: 25px;
 }
 
@@ -907,9 +907,9 @@ footer .info-item i  {
   height: 56px;
   font-size: 24px;
   line-height: 0;
-  color: white;
+  color: var(--color-primary);
   border-radius: 50%;
-  border: 2px dotted white;
+  border: 2px dotted var(--color-primary);
 }
 
 footer p {
@@ -918,7 +918,7 @@ footer p {
 }
 
 .footerText {
-  color: white;
+  color: var(--color-primary);
 }
 
 @media (max-width: 1590px) {
@@ -959,7 +959,7 @@ footer p {
   }
 }
 footer a {
-  color: white;
+  color: var(--color-primary);
   text-decoration: underline;
 }
 
@@ -968,12 +968,12 @@ footer a:hover{
 }
 
 footer h6 {
-  color: white;
+  color: var(--color-primary);
   font-family: var(--font-default);
   margin-top: 20px;
 }
 
 .FooterAdam {
-  color: White;
+  color: var(--color-primary);
   text-decoration: underline;
 }
