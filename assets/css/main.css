@@ -565,6 +565,10 @@ section {
 /*--------------------------------------------------------------
 # Our Projects Section
 --------------------------------------------------------------*/
+.projects {
+  margin-top: 100px;
+}
+
 .projects .portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
